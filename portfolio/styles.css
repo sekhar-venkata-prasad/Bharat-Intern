@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('background_image.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+    font-size:larger;
+}
+
+header {
+    color: rgb(0, 5, 6);
+    text-align: center;
+    padding: 2.5em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+    font-style: italic;
+}
+
+section {
+    padding: 2em;
+    border-bottom: 0px solid #fdf7f7;
+}
+
+#about img {
+    max-width: 200px;
+    border-radius: 100%;
+    align-items: center;
+}
+#about {
+    color:rgb(10, 0, 3);
+    font-size: 150%;
+
+
+}
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    color:darkred;
+    font-style:oblique;
+}
+#skills li {
+    background-color: #8ad5ec;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+.project {
+    margin-bottom: 2em;
+    color:rgb(0, 0, 0);
+    font-size: 120%;
+}
+
+.project img {
+    max-width: 37%;
+    height: 300px;
+}
+footer {
+    background-color: #150202;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em 0;
+    font-size:small;
+}
